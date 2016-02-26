@@ -1,0 +1,30 @@
+set autoindent
+set constantshow
+set morespace
+set mouse
+set nohelp
+set nowrap
+set smarthome
+set smooth
+set suspend
+set tabsize 2
+set wordbounds
+
+bind ^O insert main
+bind ^S writeout main
+bind ^W exit main
+bind ^Q exit main
+
+bind ^Z undo main
+bind ^Y redo main
+
+bind ^X cut main
+bind ^C copytext main
+bind ^V uncut main
+
+bind ^F whereis main
+bind ^G searchagain main
+
+bind M-Z suspend main
+
+include /usr/local/share/nano/*.nanorc
